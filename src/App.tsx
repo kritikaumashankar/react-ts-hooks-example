@@ -15,7 +15,7 @@ const fib : fibFunc =(n) => {
   return fib(n-1) + fib(n-2);
 }
 
-const myNum: number = 37;
+const myNum: number = 10;
 function App() {
 
   const [count, setCount] = useState(0);
